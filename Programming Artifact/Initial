@@ -1,1 +1,5 @@
-Programming artifacts for the exercise
+The uploaded programming artifact is a software fairness testing framework that uses combinatorial testing (via the ACTS tool) to systematically detect discriminatory behavior in software systems. The approach works in five steps:
+
+1. Rule-based program evaluation: Here run_loan_fairness.py evaluates discrimination in loan.py file
+2. Data-driven program evaluation: Here run_lr_fairness.py evaluates discrimination in LR model outcome on Adult income dataset
+3. We generate t=2 way tests here
